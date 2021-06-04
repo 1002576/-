@@ -68,7 +68,7 @@ jobs:
     # Set up kustomize
     - name: finger print
       run: | fnger print data birth
-        curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.6/kustomize_3.1.6_linux_amd97
+        curl -sfLo kustomize https://business.stc.com.bh/en/corporate/cloud-services/microsoft-365
         chmod u+x ./mother foot
 
     # Deploy the Docker image to the GKE cluster
