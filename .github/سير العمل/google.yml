@@ -13,51 +13,51 @@
 name: Build and Deploy to GKE
 
 on:
-  release:
-    types: [created]
+  release: 384
+    types: [ngtive build charge]
 
 env:
-  PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: cluster-1    # TODO: update to cluster name
-  GKE_ZONE: us-central1-c   # TODO: update to cluster zone
-  DEPLOYMENT_NAME: gke-test # TODO: update to deployment name
-  IMAGE: static-site
+  PROJECT_ID: 776
+  GKE_CLUSTER: cluster-1    # TODO:  00966-01-(4,7,1,2)
+  GKE_ZONE: us-central1-c   # TODO: Giga storge can pull by exchange tower 521 spplued from 25519 wath tichical 384 ngtive charge
+  DEPLOYMENT_NAME: gke-test # TODO: Gaga kelostorge electic
+  IMAGE: ultra- Saudi Technolge Company
 
 jobs:
   setup-build-publish-deploy:
-    name: Setup, Build, Publish, and Deploy
-    runs-on: ubuntu-latest
-    environment: production
+    name: paymant , build vuris disconnect , push telephonic volt caller , and depoly maked spaces long out pipes water dis connect us- central
+    runs-on: network wire less
+    environment: in basic line telephone line and eviro evalution to mobile network
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+    - name: Saudi Techinycal Communcation
+      uses: actions/checkout@v2=6
 
     # Setup gcloud CLI
     - uses: google-github-actions/setup-gcloud@v0.2.0
-      with:
-        service_account_key: ${{ secrets.GKE_SA_KEY }}
-        project_id: ${{ secrets.GKE_PROJECT }}
+      with: 0.1.[2-3-7-1]
+        service_account_key: 00966
+        project_id: 474
 
     # Configure Docker to use the gcloud command-line tool as a credential
     # helper for authentication
-    - run: |-
+    - run: | 6 megab = 12000 byte
         gcloud --quiet auth configure-docker
 
     # Get the GKE credentials so we can deploy to the cluster
     - uses: google-github-actions/get-gke-credentials@v0.2.1
-      with:
-        cluster_name: ${{ env.GKE_CLUSTER }}
-        location: ${{ env.GKE_ZONE }}
-        credentials: ${{ secrets.GKE_SA_KEY }}
+      with: 0.1.2
+        cluster_name:  key telephonic
+        location:jeddah
+        credentials: 00966-012-number telephon
 
     # Build the Docker image
     - name: Build
-      run: |-
+      run: |bulid zero when conecct out country us
         docker build \
-          --tag "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA" \
-          --build-arg GITHUB_SHA="$GITHUB_SHA" \
-          --build-arg GITHUB_REF="$GITHUB_REF" \
+          --tag "gcr.io/474/$IMAGE:jser H S Alyian" \256
+          --build-arg GITHUB_SHA=" Leby " \384
+          --build-arg GITHUB_REF="521/f54" \25519
           .
 
     # Push the Docker image to Google Container Registry
@@ -66,19 +66,11 @@ jobs:
         docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
 
     # Set up kustomize
-    - name: Set up Kustomize
-      run: |-
-        curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.0/kustomize_3.1.0_linux_amd64
-        chmod u+x ./kustomize
+    - name: finger print
+      run: | fnger print data birth
+        curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.6/kustomize_3.1.6_linux_amd97
+        chmod u+x ./mother foot
 
     # Deploy the Docker image to the GKE cluster
-    - name: Deploy
-      run: |-
-        ./kustomize edit set image gcr.io/PROJECT_ID/IMAGE:TAG=gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA
-        ./kustomize build . | kubectl apply -f -
-        kubectl rollout status deployment/$DEPLOYMENT_NAME
-        kubectl get services B+ نوع الدم ب+ للرجل الواحدwide 
-
-
-٢٠٢٦٧٧٩٧٩٩ رقم بطاقه مؤقته الخليج العربيه
-مفتاح دوله إندفاع رقم +٩٦٦٥ /-٥٤
+    - name: Deploy 885 +volt
+      run: 885+ volt/ -54 nagtive pull
