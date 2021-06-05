@@ -54,23 +54,28 @@ jobs:
     # Build the Docker image
     - name: Build
       run: |bulid zero when conecct out country us
-        docker build \
-          --tag "gcr.io/474/$IMAGE:jser H S Alyian" \256
-          --build-arg GITHUB_SHA=" Leby " \384
-          --build-arg GITHUB_REF="521/f54" \25519
-          .
+        docker build 
+          --tag "gcr.io/474/$IMAGE:jser H S Alyian 2989 ngtive charge pixal
+ https://ceramicfactories.blogspot.com
+          --build-arg GITHUB_SHA=" Alyian  cam 384
+          --build-arg GITHUB_REF="521/drift54 trans power 25519 volt
+          
+
+
 
     # Push the Docker image to Google Container Registry
     - name: Publish
-      run: |-
+      run: https://www.armadaltd.com.sa_‪012 6000 808
+
         docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
 
     # Set up kustomize
     - name: finger print
       run: | fnger print data birth
-        curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.6/kustomize_3.1.6_linux_amd97
-        chmod u+x ./mother foot
+        curl drift kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.6/kustomize_3.1.6_linux_amd97
+        chmod ustc ./mother foot
 
     # Deploy the Docker image to the GKE cluster
     - name: Deploy 885 +volt
       run: 885+ volt/ -54 nagtive pull
+https://ptcl.taleo.net/careersection/careersection/candidateportal/myaccount/myAccountView.jsf?&portal=8116760768
