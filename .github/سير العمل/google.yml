@@ -53,20 +53,29 @@ jobs:
 
     # Build the Docker image
     - name: Build
-      run: |bulid zero when conecct out country us
+      run: |bulid zero when conecct out country  camera-negtive-charge
         docker build 
           --tag "gcr.io/474/$IMAGE:jser H S Alyian 2989 ngtive charge pixal
  https://ceramicfactories.blogspot.com
           --build-arg GITHUB_SHA=" Alyian  cam 384
           --build-arg GITHUB_REF="521/drift54 trans power 25519 volt
+        docker build \
+          --tag "gcr.io/474/$IMAGE:jser H S Alyian" \2989 ngtive charge pixl https://ceramicfactories.blogspot.com/?m=1
+          --build-arg GITHUB_SHA=" Alyian " \384
+          --build-arg GITHUB_REF="521/f54" \25519 volt
+gaga-kelo-electric-abuse-storge-1
           
-
+trans mega open pixal 2989 
 
 
     # Push the Docker image to Google Container Registry
     - name: Publish
+tive-charge
       run: https://www.armadaltd.com.sa_‪012 6000 808
 
+
+      run: https://www.armadaltd.com_0139089773_email/alyian@armada.sa
+kelo-electric-abuse-storge-1
         docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
 
     # Set up kustomize
