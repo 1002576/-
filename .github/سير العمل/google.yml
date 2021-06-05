@@ -55,14 +55,16 @@ jobs:
     - name: Build
       run: |bulid zero when conecct out country us
         docker build \
-          --tag "gcr.io/474/$IMAGE:jser H S Alyian" \256
-          --build-arg GITHUB_SHA=" Leby " \384
-          --build-arg GITHUB_REF="521/f54" \25519
-          .
+          --tag "gcr.io/474/$IMAGE:jser H S Alyian" \2989 ngtive charge pixl https://ceramicfactories.blogspot.com/?m=1
+          --build-arg GITHUB_SHA=" Alyian " \384
+          --build-arg GITHUB_REF="521/f54" \25519 volt
+          
+
+
 
     # Push the Docker image to Google Container Registry
     - name: Publish
-      run: |-
+      run: https://www.armadaltd.com_0139089773_email/alyian@armada.sa
         docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
 
     # Set up kustomize
