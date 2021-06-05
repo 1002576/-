@@ -1,14 +1,4 @@
-# This workflow will build a docker container, publish it to Google Container Registry, and deploy it to GKE when a release is created
-#
-# To configure this workflow:
-#
-# 1. Ensure that your repository contains the necessary configuration for your Google Kubernetes Engine cluster, including deployment.yml, kustomization.yml, service.yml, etc.
-#
-# 2. Set up secrets in your workspace: GKE_PROJECT with the name of the project and GKE_SA_KEY with the Base64 encoded JSON service account key (https://github.com/GoogleCloudPlatform/github-actions/tree/docs/service-account-key/setup-gcloud#inputs).
-#
-# 3. Change the values for the GKE_ZONE, GKE_CLUSTER, IMAGE, and DEPLOYMENT_NAME environment variables (below).
-#
-# For more support on how to run the workflow, please visit https://github.com/google-github-actions/setup-gcloud/tree/master/example-workflows/gke
+# support on how 
 
 name: Build and Deploy to GKE
 
@@ -19,7 +9,7 @@ on:
 env:
   PROJECT_ID: 776
   GKE_CLUSTER: cluster-1    # TODO:  00966-01-(4,7,1,2)
-  GKE_ZONE: us-central1-c   # TODO: Giga storge can pull by exchange tower 521 spplued from 25519 wath tichical 384 ngtive charge
+  GKE_ZONE: us-central1-c   # TODO: Giga storge can pul
   DEPLOYMENT_NAME: gke-test # TODO: Gaga kelostorge electic
   IMAGE: ultra- Saudi Technolge Company
 
@@ -41,48 +31,58 @@ jobs:
 
     # Configure Docker to use the gcloud command-line tool as a credential
     # helper for authentication
-    - run: | 6 megab = 12000 byte
+    6 megab = 12000 byte
         gcloud --quiet auth configure-docker
 
     # Get the GKE credentials so we can deploy to the cluster
-    - uses: google-github-actions/get-gke-credentials@v0.2.1
-      with: 0.1.2
+    -uses: google-github-actions/get-gke-credentials@v0.2.1
+      with: 0.1.2 6
         cluster_name:  key telephonic
         location:jeddah
         credentials: 00966-012-number telephon
 
     # Build the Docker image
-    - name: Build
-      run: |bulid zero when conecct out country  camera-negtive-charge
-        docker build 
-          --tag "gcr.io/474/$IMAGE:jser H S Alyian 2989 ngtive charge pixal
+    - namebackdown
+      runbulid zero when conecct out country  camera-negtive-charge
+        back dowan attch pull push till finsh depressent files 
+         tag "gcr.io/474/$IMAGE:jser H S Alyian 2989 ngtive charge pixal
  https://ceramicfactories.blogspot.com
           --build-arg GITHUB_SHA=" Alyian  cam 384
-          --build-arg GITHUB_REF="521/drift54 trans power 25519 volt
+build-arg GITHUB_REF="521/drift54 trans power 25519 volt
         docker build \
           --tag "gcr.io/474/$IMAGE:jser H S Alyian" \2989 ngtive charge pixl https://ceramicfactories.blogspot.com/?m=1
-          --build-arg GITHUB_SHA=" Alyian " \384
-          --build-arg GITHUB_REF="521/f54" \25519 volt
+          --build-arg GITHUB_SHA=" Alyian " \ ngtive pull 384
+          --build-arg GITHUB_REF="521/f54" \trans arrgment 25519 volt
+
+       
+
+ make backdraw opition opposite pull machainsum
 gaga-kelo-electric-abuse-storge-1
           
 trans mega open pixal 2989 
+ gaga-kelo-electric-abuse-storge-1
 
 
     # Push the Docker image to Google Container Registry
     - name: Publish
+    chang publish to bulid
+
+      run: https://www.armadaltd.com_0139089773_email/alyian@armada.sa
+
 tive-charge
       run: https://www.armadaltd.com.sa_‪012 6000 808
 
 
       run: https://www.armadaltd.com_0139089773_email/alyian@armada.sa
 kelo-electric-abuse-storge-1
+gaga-kelo-electric-abuse-storge-1
         docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
 
     # Set up kustomize
     - name: finger print
       run: | fnger print data birth
         curl drift kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.6/kustomize_3.1.6_linux_amd97
-        chmod ustc ./mother foot
+        chmod ustc ./mother f
 
     # Deploy the Docker image to the GKE cluster
     - name: Deploy 885 +volt
