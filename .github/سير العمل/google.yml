@@ -13,7 +13,7 @@
 name: Build and Deploy to GKE
 
 on:
-  release: 354
+  release: 384
     types: [ngtive build charge]
 
 env:
