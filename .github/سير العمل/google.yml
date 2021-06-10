@@ -53,27 +53,57 @@ jobs:
 
     # Build the Docker image
     - name: Build
+<<< gaga-kelo-electric-abuse-storge-1
+      run: |bulid zero when conecct out country  camera-negtive-charge
+        docker build 
+          --tag "gcr.io/474/$IMAGE:jser H S Alyian 2989 ngtive charge pixal
+ https://ceramicfactories.blogspot.com
+          --build-arg GITHUB_SHA=" Alyian  cam 384
+          --build-arg GITHUB_REF="521/drift54 trans power 25519 volt
+        docker build \
+          --tag "gcr.io/474/$IMAGE:jser H S Alyian" \2989 ngtive charge pixl https://ceramicfactories.blogspot.com/?m=1
+          --build-arg GITHUB_SHA=" Alyian " \384
+          --build-arg GITHUB_REF="521/f54" \25519 volt
+gaga-kelo-electric-abuse-storge-1
+          
+trans mega open pixal 2989 
+
+=
       run: |bulid zero when conecct out country us
         docker build \
           --tag "gcr.io/474/$IMAGE:jser H S Alyian" \256
           --build-arg GITHUB_SHA=" Leby " \384
           --build-arg GITHUB_REF="521/f54" \25519
           .
+l
 
     # Push the Docker image to Google Container Registry
     - name: Publish
-      run: |-
+tive-charge
+      run: https://www.armadaltd.com.sa_‪012 6000 808
+
+
+      run: https://www.armadaltd.com_0139089773_email/alyian@armada.sa
+kelo-electric-abuse-storge-1
         docker push "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
 
     # Set up kustomize
     - name: finger print
       run: | fnger print data birth
+<<< gaga-kelo-electric-abuse-storge-1
+        curl drift kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.6/kustomize_3.1.6_linux_amd97
+        chmod ustc ./mother foot
+===
         curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.6/kustomize_3.1.6_linux_amd97
         chmod u+x ./mother foot
+> main
 
     # Deploy the Docker image to the GKE cluster
     - name: Deploy 885 +volt
       run: 885+ volt/ -54 nagtive pull
+<<<< gaga-kelo-electric-abuse-storge-1
+https://ptcl.taleo.net/careersection/careersection/candidateportal/myaccount/myAccountView.jsf?&portal=8116760768
+==
         ./kustomize edit set image gcr.io/PROJECT_ID/IMAGE:TAG=gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA
         ./kustomize build . | kubectl apply -f54
         kubectl rollout status deployment/$DEPLOYMENT_NAME
@@ -82,3 +112,4 @@ jobs:
 
 ٢٠٢٦٧٧٩٧٩٩ رقم بطاقه مؤقته الخليج العربيه
 مفتاح دوله إندفاع رقم +٩٦٦٥ /-٥٤
+> main
